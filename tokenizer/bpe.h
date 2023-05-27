@@ -4,9 +4,12 @@
 #include <re2/re2.h>
 #include <re2/stringpiece.h>
 
+#include <cassert>
+#include <climits>
 #include <codecvt>
 #include <fstream>
 #include <iostream>
+#include <locale>
 #include <set>
 #include <string>
 #include <unordered_map>
